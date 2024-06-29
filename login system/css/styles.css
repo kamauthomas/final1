@@ -1,0 +1,228 @@
+/* basic stylings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: aliceblue;
+}
+
+.logo{
+    margin-left: 2rem;
+}
+
+.logo-text{
+    font-size: 2em;
+}
+
+.menubar{
+    width: 45%;
+    margin-left: 8.5em;
+    margin-left: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items{
+    color: black;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    transition: 0.4s;
+}
+
+.logs ul a{
+    font-size: 25px;
+    color: blue;
+    margin-left: 20px;
+    
+}
+
+.logs .signup{
+    background-color: darkblue;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+   margin-right: 80px;
+   transition: 0.5s;
+}
+
+.logs .signup:hover{
+   background-color: beige;
+   color: black;
+}
+
+.logs .signin{
+    background-color: beige;
+    color: rgb(7, 7, 7);
+    border-radius: 25px;
+    padding: 10px;
+   transition: 0.5s;
+}
+
+
+.logs .signin:hover{
+    background-color: blue;
+    color: white;
+}
+
+.hero-content{
+    margin: 6em 6em 0 6em;
+    display: flex;
+
+}
+
+.hero-h2{
+    font-size: 50px;
+}
+
+.hero-p{
+    font-size: 25px;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+
+
+.image img{
+    width: 85%;
+    margin-left: 5em;
+    margin-top: -130px;
+    height: 130%;
+}
+
+.low-Header{
+    display: flex;
+    justify-content: space-between;
+    margin:0 6em ;
+    Box-shadow: 0 0 10px 5px rgb(211, 202, 202);
+    padding: 20px;
+}
+
+.aboutUs{
+    margin: 6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUs img{
+    width: 55%;
+    margin-top: -10px;
+
+}
+
+.aboutUs .about-text h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+}
+
+.aboutUs .about-text .about-p{
+    font-size: 25px;
+    color: blue;
+    padding: 0 0 10px 120px;
+    
+}
+
+.deals{
+    color: blue;
+    margin: 0 30em 2em;
+    padding-left: 0px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 6em;
+   
+}
+.card {
+    background-color: #f1d5d5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.card h2 {
+    font-size: 18px;
+    color: #007bff;
+    margin: 0 0 5px 0;
+}
+.card p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+.card .rating {
+    color: #ffc107;
+}
+.cta {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.cta:hover {  
+    background-color: #0056b3;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+   transition: 0.5s;
+   margin-top: 2px;
+}
+
+.rating{
+    padding-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: beige;
+    color: black;
+}
+
+
+
+
+
